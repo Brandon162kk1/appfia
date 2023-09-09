@@ -1,13 +1,25 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>c-ambientes</ion-title>
+    <ion-title>Ambientes de la EPIC</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">c-ambientes</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <br>
+  <button [routerLink]="['/directorio']" class="btn btn-danger">Regresar</button>
+  <!--<div id="container">
+    <button class="btn">Oficina de la Escuela Profesional de Ingeniería Civil</button>
+    <br><br>
+    <button class="btn">Laboratorio de Materiales</button>
+    <br><br>
+  </div>-->
+
+  <div id="container">
+    <ion-row>
+      <ion-col sizeXs="12" *ngFor="let item of ambientesciv" >
+          <button [routerLink]="['/civil',item.id]" class="btn">{{item.name}}</button>
+      </ion-col>
+    </ion-row>
+  </div>
+
 </ion-content>

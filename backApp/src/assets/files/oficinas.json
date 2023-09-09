@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name" : "Decanato",
+      "image" : "generales2c.jpg",
+      "ubicacion": "Edificio FIA DATA \n Piso Sótano",
+      "horario":"L-V 08:00-16:00",
+      "contacto":"epics@usmp.pe"
+    },
+    {
+      "id": "2",
+      "name" : "Secretaria de Facultad",
+      "image" : "generales2c.jpg",
+      "ubicacion": "Edificio FIA DATA \n Piso Sótano",
+      "horario":"L-V 08:00-16:00",
+      "contacto":"epics@usmp.pe"
+    },
+    {
+      "id": "3",
+      "name" : "Sección de Posgrado",
+      "image" : "generales2c.jpg",
+      "ubicacion": "Edificio FIA DATA \n Piso Sótano",
+      "horario":"L-V 08:00-16:00",
+      "contacto":"epics@usmp.pe"
+    },
+    {
+      "id": "4",
+      "name" : "Departamento Académico",
+      "image" : "generales2c.jpg",
+      "ubicacion": "Edificio FIA DATA \n Piso Sótano",
+      "horario":"L-V 08:00-16:00",
+      "contacto":"epics@usmp.pe"
+    },
+    {
+      "id": "5",
+      "name" : "Acreditación y Calidad Educativa",
+      "image" : "generales2c.jpg",
+      "ubicacion": "Edificio FIA DATA \n Piso Sótano",
+      "horario":"L-V 08:00-16:00",
+      "contacto":"epics@usmp.pe"
+    }
+  ]
+}

@@ -1,13 +1,24 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>a-ambientes</ion-title>
+    <ion-title>Ambientes de la EPA</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">a-ambientes</ion-title>
-    </ion-toolbar>
-  </ion-header>
-</ion-content>
+<br>
+  <button [routerLink]="['/directorio']" class="btn btn-danger">Regresar</button>
+  <!--<div id="container">
+    <button class="btn">Oficina de la Escuela Profesional de Ciencias Aeronauticas</button>
+    <br><br>
+    <button class="btn">Laboratorio de Simulación</button>
+    <br><br>
+  </div>-->
+  <div id="container">
+    <ion-row>
+      <ion-col sizeXs="12" *ngFor="let item of ambientesaero" >
+          <button [routerLink]="['/aeronautica',item.id]" class="btn">{{item.name}}</button>
+      </ion-col>
+    </ion-row>
+  </div>
+
+</ion-content>>

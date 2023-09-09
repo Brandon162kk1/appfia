@@ -54,6 +54,26 @@ const routes: Routes = [
   {
     path: 'sistemas/:id',
     loadChildren: () => import('./sistemas/sistemas.module').then( m => m.SistemasPageModule)
+  },
+  {
+    path: 'industrial/:id',
+    loadChildren: () => import('./industrial/industrial.module').then( m => m.IndustrialPageModule)
+  },
+  {
+    path: 'civil/:id',
+    loadChildren: () => import('./civil/civil.module').then( m => m.CivilPageModule)
+  },
+  {
+    path: 'oficinas/:id',
+    loadChildren: () => import('./oficinas/oficinas.module').then( m => m.OficinasPageModule)
+  },
+  {
+    path: 'arquitectura/:id',
+    loadChildren: () => import('./arquitectura/arquitectura.module').then( m => m.ArquitecturaPageModule)
+  },
+  {
+    path: 'aeronautica/:id',
+    loadChildren: () => import('./aeronautica/aeronautica.module').then( m => m.AeronauticaPageModule)
   }
 ];
 

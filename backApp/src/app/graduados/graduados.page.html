@@ -1,13 +1,19 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>graduados</ion-title>
-  </ion-toolbar>
-</ion-header>
-
+<ion-toolbar>
+  <ion-searchbar placeholder="Buscar" ionInput="buscarGraduado($event)"></ion-searchbar>
+</ion-toolbar>
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">graduados</ion-title>
-    </ion-toolbar>
-  </ion-header>
+
+<h1 style="text-align:center">Recomendaciones, por favor ingresar el año de la promoción.</h1>
+<h3>Tener en cuenta que las placas en físico solo se encuentran desde el año 1990 hasta el 2017*</h3>
+<!--<ion-list >
+  <ion-item>
+    <ion-row>
+      <ion-col sizeXs="12" *ngFor="let user of graduados">
+        <ion-card>
+          <div class="card-title">{{user.name}}</div>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-item>
+</ion-list>-->
 </ion-content>

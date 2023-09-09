@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name" : "Laboratorio de Software y Tecnología Interactivas-EPICS",
+      "image" : "generales2c.jpg",
+      "ubicacion": "Edificio FIA DATA \n Piso Sótano",
+      "horario":"L-V 08:00-16:00",
+      "contacto":"epics@usmp.pe"
+    },
+    {
+      "id": "2",
+      "name" : "Labotatorio de Base de datos y Business Intelligence- EPICS",
+      "image" : "generales2c.jpg",
+      "ubicacion": "Edificio FIA DATA \n Piso Sótano",
+      "horario":"L-V 08:00-16:00",
+      "contacto":"epics@usmp.pe"
+    },
+    {
+      "id": "3",
+      "name" : "Laboratorio de Inteligencia Artificial y Robótica-EPICS",
+      "image" : "generales2c.jpg",
+      "ubicacion": "Edificio FIA DATA \n Piso Sótano",
+      "horario":"L-V 08:00-16:00",
+      "contacto":"epics@usmp.pe"
+    },
+    {
+      "id": "4",
+      "name" : "Oficina de la Escuela Profesional de Ingenieria de Computacion y Sistemas",
+      "image" : "generales2c.jpg",
+      "ubicacion": "Edificio FIA DATA \n Piso Sótano",
+      "horario":"L-V 08:00-16:00",
+      "contacto":"epics@usmp.pe"
+    }
+  ]
+}

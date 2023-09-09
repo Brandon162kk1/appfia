@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "name" : "Estudios Generales",
+      "image" : "generales2c.jpg"
+    },
+    {
+      "name" : "Aulas Especialidades",
+      "image" : "especialidades5c.jpg"
+    },
+    {
+      "name" : "Aulas FIA DATA",
+      "image" : "fiadataalumnos1c.jpg"
+    },
+    {
+      "name" : "Sotano Generales-Laboratorio Arquitectura",
+      "image" : "Arquitectura1_v2.jpg"
+    }
+  ]
+}

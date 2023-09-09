@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name" : "Oficina de la Escuela Profesional de Ingeniería Industrial",
+      "image" : "generales2c.jpg",
+      "ubicacion": "Edificio FIA DATA \n Piso Sótano",
+      "horario":"L-V 08:00-16:00",
+      "contacto":"epics@usmp.pe"
+    },
+    {
+      "id": "2",
+      "name" : "Control y Automatización-EPII",
+      "image" : "generales2c.jpg",
+      "ubicacion": "Edificio FIA DATA \n Piso Sótano",
+      "horario":"L-V 08:00-16:00",
+      "contacto":"epics@usmp.pe"
+    },
+    {
+      "id": "3",
+      "name" : "Control de Procesos y Planta Piloto Industrial-EPII",
+      "image" : "generales2c.jpg",
+      "ubicacion": "Edificio FIA DATA \n Piso Sótano",
+      "horario":"L-V 08:00-16:00",
+      "contacto":"epics@usmp.pe"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "backApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
